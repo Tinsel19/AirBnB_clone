@@ -42,4 +42,4 @@ class FileStorage:
                 for obj in dict_from_json.values():
                     self.new(eval(obj['__class__'])(**obj))
         except Exception:
-            return
+            return 'null'
