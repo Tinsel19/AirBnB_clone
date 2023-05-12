@@ -1,0 +1,34 @@
+/* Declare styles Varibales */
+:root {
+    /* Font Variables */
+    --globalFontSize: 14px;
+    --globalFontFamily: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+    /* Color Variables */
+    --globalColor: #484848;
+}
+
+/* Global Style */
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--globalColor);
+    font-size: var(--globalFontSize);
+    font-family: var(--globalFontFamily);
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;    
+}
+
+/* html styles  */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* class styles */
+.container {
+    width: clamp(300px, 90vw + .5rem, 1000px);
+    margin: 30px auto;
+}

@@ -1,0 +1,19 @@
+/* create style variables  */
+:root {
+    /* color variables */
+    --white: white;
+    --borderColor: #CCCCCC;
+}
+
+/* style for html footer tag  */
+footer {
+    /* margin-top puts it always at page bottom */
+    margin-top: auto; 
+    display: grid;
+    place-items: center;
+    align-items: center;
+    background-color: var(--white);
+    height: 60px;
+    width: 100%;
+    border-top: 1px solid var(--borderColor);
+}
