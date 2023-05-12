@@ -19,17 +19,17 @@ def parse(line):
     argv = line.split(' ')
     if len(argv) > 4:
         argv = argv[:4]
-    if len(argv) != 4:
+    elif len(argv) != 4:
         return argv
 
     print(argv)
     if argv[3][0] in ['"', '"']:
         argv[3] = argv[3][1:]
-    if argv[3][-1] in ['"', '"']:
+    elif argv[3][-1] in ['"', '"']:
         argv[3] = argv[3][:-1]
-    if argv[2][0] in ['"', "'"]:
+    elif argv[2][0] in ['"', "'"]:
         argv[2] = argv[2][1:]
-    if argv[2][-1] in ['"', "'"]:
+    elif argv[2][-1] in ['"', "'"]:
         argv[2] = argv[2][:-1]
 
     return argv
@@ -48,7 +48,7 @@ def err_manager(line, argc):
     if argc == 1:
         return argv
 
-    if len(argv) < 2:
+    elif len(argv) < 2:
         print("** instance id missing **")
         return -1
 
@@ -59,11 +59,11 @@ def err_manager(line, argc):
         print("** no instance found **")
         return -1
 
-    if len(argv) == 2 and argc == 4:
+    elif len(argv) == 2 and argc == 4:
         print("** attribute name missing **")
         return -1
 
-    if len(argv) == 3 and argc == 4:
+    elif len(argv) == 3 and argc == 4:
         print("** value missing **")
         return -1
     return argv
@@ -221,14 +221,14 @@ class HBNBCommand(cmd.Cmd):
                 print('*** unknown syntax:', line)
                 return
 
-            if command == 'all':
+            elif command == 'all':
                 attrs = \
                     [obj for obj in objects if type(obj).__name__ == argv[0]]
                 [print(att, end=', ' if att != attrs[-1] else '\n')
                     for att in attrs]
                 return
 
-            if command == 'count':
+            elif command == 'count':
                 count = 0
                 for obj in objects:
                     if type(obj).__name__ == argv[0]:
