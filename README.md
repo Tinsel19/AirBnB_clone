@@ -34,7 +34,8 @@
 <h3>Using the Console</h3>
 <p>The AirBnB console can be run both interactively and non-interactively. To run the console in non-interactive mode, pipe any command(s) into an execution of the file console.py at the command line.</p>
 <div>
-<p>$ echo "help" | ./console.py
+<p>
+$ echo "help" | ./console.py
         (hbnb) 
         Documented commands (type help <topic>):
         ========================================
@@ -52,14 +53,19 @@
 </div>
 <p>While running in interactive mode, the console displays a prompt for input:</p>
 <div>
-    <p>$ ./console.py</p>
-    <p>(hbnb)</p>
+    <p>
+    $ ./console.py
+    (hbnb)
+    </p>
 </div>
+
 <p>To quit the console, enter the command quit, or input an EOF signal (ctrl-D).</p>
 <div>
-    <p>$ ./console.py</p>
-    <p>(hbnb) quit</p>
-    <p>$</p>
+    <p>
+    $ ./console.py
+    (hbnb) quit
+    $
+    </p>
 </div>
 <div>
 <p>$ ./console.py</p>
@@ -232,6 +238,7 @@ m', 'first_name': 'Holberton', 'updated_at': datetime.datetime(2019, 2, 17, 21,
 
 </ul>
 <h3>Testing 📏</h3>
+<hr style="size: 1;">
 <p>
 Unittests for the AirBnB project are defined in the tests folder. To run the entire test suite simultaneously, execute the following command:
 </p>
@@ -239,6 +246,7 @@ Unittests for the AirBnB project are defined in the tests folder. To run the ent
 <p>Alternatively, you can specify a single test file to run at a time:</p>
 <p>$ python3 unittest -m tests/test_console.py</p>
 <h3>Authors ✒️</h3>
+<hr style="size: 1;">
 <ul>
 <li>Oladunjoye Olaoluwa<li>
 <li>Sikiru Yaya</li>
