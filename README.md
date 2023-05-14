@@ -248,6 +248,6 @@ Unittests for the AirBnB project are defined in the tests folder. To run the ent
 <h3>Authors ✒️</h3>
 <hr style="size: 1;">
 <ul>
-<li>Oladunjoye Olaoluwa<li>
+<li>Oladunjoye Olaoluwa</li>
 <li>Sikiru Yaya</li>
-<ul>
+</ul>
