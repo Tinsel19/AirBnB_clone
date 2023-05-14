@@ -33,7 +33,7 @@
         storage object defined above).</p>
     <h3>Using the Console</h3>
     <p>The AirBnB console can be run both interactively and non-interactively. To run the console in non-interactive mode, pipe any command(s) into an execution of the file console.py at the command line.</p>
-    <div style='background-color: grey'>
+    <div style='background: grey'>
         <p>$ echo "help" | ./console.py
 (hbnb) 
 Documented commands (type help <topic>):
