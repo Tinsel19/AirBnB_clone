@@ -70,9 +70,7 @@
 <p>The AirBnB console supports the following commands:</p>
 <ul>
 <li>create</li>
-    <ul>
-    <li>Usage: create <class><li>
-    </ul>
+    <ul><li>Usage: create <class></li></ul>
     <p>Creates a new instance of a given class. The class' ID is printed and the instance is saved to the file file.json.</p>
     <p>
     $ ./console.py
