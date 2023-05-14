@@ -16,7 +16,7 @@
     <h3>Classes</h3>
     <hr style="size: 1;">
 
-    <p style="color: grey; font-weight: lighter; font-size: 12rem;">AirBnB utilizes the following classes:</p>
+<!--     <p style="color: grey; font-weight: lighter; font-size: 12rem;">AirBnB utilizes the following classes:</p> -->
 
     <hr style="size: 1;">
     <h3>Storage</h3>
