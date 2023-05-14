@@ -1,5 +1,4 @@
-
-    <h1>AirBnB Clone - The Console</h1>
+<h1>AirBnB Clone - The Console</h1>
     <hr style="size: 1;">
     <ul>
         <li>Data Model</li>
@@ -17,7 +16,7 @@
     <h3>Classes</h3>
     <hr style="size: 1;">
 
-    <p style="color: grey; font-weight: 200; font-size: 1rem;">AirBnB utilizes the following classes:</p>
+    <p style="color: grey; font-weight: lighter; font-size: 12rem;">AirBnB utilizes the following classes:</p>
 
     <hr style="size: 1;">
     <h3>Storage</h3>
@@ -35,5 +34,3 @@
         of the backend of AirBnB. It can be used to handle and manipulate
         all classes utilized by the application (achieved by calls on the
         storage object defined above).</p>
-
-
