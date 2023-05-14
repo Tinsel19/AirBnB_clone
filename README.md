@@ -15,9 +15,7 @@
         database storage and front-end interfacing in a clone of AirBnB.</p>
     <h3>Classes</h3>
     <hr style="size: 1;">
-
-<!--     <p style="color: grey; font-weight: lighter; font-size: 12rem;">AirBnB utilizes the following classes:</p> -->
-
+    <p style="color: grey; font-weight: lighter; font-size: 12rem;">AirBnB utilizes the following classes:</p>
     <hr style="size: 1;">
     <h3>Storage</h3>
     <hr style="size: 1;">
@@ -26,7 +24,6 @@
         The storage object is loaded/re-loaded from any class instances stored in the JSON file file.json. 
         As class instances are created, updated, or deleted, the storage object is used to register 
         corresponding chnages in the file.json.</p>
-    
     <hr style="size: 1;">
     <h3>Console</h3>
     <hr style="size: 1;">
